@@ -65,7 +65,7 @@ scrollReveal.reveal(
   #contact .text, #contact .links
   footer .brand, footer .social
   `,
-  { interval: 50 }
+  { interval: 10 }
 )
 
 /* button return top */ 
@@ -113,8 +113,8 @@ function getColor2() {
 }
 
 // activate menu according to the section visible on the page
-const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
+  const sections = document.querySelectorAll('main section[id]')
 
   const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
 
