@@ -57,16 +57,16 @@ const scrollReveal = ScrollReveal({
   reset: true
 })
 
-scrollReveal.reveal(
-  `#home .image, #home .text,
-  #about .image, #about .text,
-  #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
-  #contact .text, #contact .links
-  footer .brand, footer .social
-  `,
-  { interval: 10 }
-)
+// scrollReveal.reveal(
+//   `#home .image, #home .text,
+//   #about .image, #about .text,
+//   #services header, #services .card,
+//   #testimonials header, #testimonials .testimonials
+//   #contact .text, #contact .links
+//   footer .brand, footer .social
+//   `,
+//   { interval: 10 }
+// )
 
 /* button return top */ 
 
