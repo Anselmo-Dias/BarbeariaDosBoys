@@ -11,7 +11,7 @@
   
 <p align="center">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-%2398C611" />
-  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Html-%ff7200" /> <br />
+  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Html-important" /> <br />
 </p> 
 <br />
 <br />
