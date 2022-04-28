@@ -11,7 +11,7 @@
   
 <p align="center">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-%2398C611" />
-  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Html-%232F74C0" /> <br />
+  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Html-%ff7200" /> <br />
 </p> 
 <br />
 <br />
@@ -27,7 +27,7 @@ Esse é um projeto simples onde crio um portfólio de uma Barbearia local, coloc
 
 <br />
 
-  - [GitHub Pages](https://anselmo-dias.github.io/BarbeariaDosBoys/) 💈:
+  - [GitHub Pages](https://anselmo-dias.github.io/BarbeariaDosBoys/) 💈
  
 
 
