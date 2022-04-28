@@ -633,6 +633,10 @@ footer .social a:hover {
     margin-right: auto;
   }
 
+  /* examples of cuts */
+
+  
+
   /* contact */
   #contact .container {
     grid-auto-flow: column;
