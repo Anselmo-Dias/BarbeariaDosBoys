@@ -10,8 +10,11 @@
 </h1>
   
 <p align="center">
+ <img alt="Html" src="https://img.shields.io/badge/hypertext%20-Html-important" /> 
+   <img alt="Html" src="https://img.shields.io/badge/Cascading%20Style sheets-Css-blue" />
+  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Javascript-yellow" /> <br/>
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-%2398C611" />
-  <img alt="Html" src="https://img.shields.io/badge/Main%20lenguage-Html-important" /> <br />
+ 
 </p> 
 <br />
 <br />
@@ -23,8 +26,8 @@ Esse é um projeto simples onde crio um portfólio de uma Barbearia local, coloc
 
 <br />
 
-## O link do site hospedado por
-
+## O link do site 
+### **Hospedado por:**
 <br />
 
   - [GitHub Pages](https://anselmo-dias.github.io/BarbeariaDosBoys/) 💈
