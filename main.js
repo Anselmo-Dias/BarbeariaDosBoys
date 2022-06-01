@@ -1,3 +1,12 @@
+window.addEventListener('scroll', function() {
+  backToTop()
+  newHeaderPage()
+  // activateMenuAtCurrentSection() 
+  // getColor()
+  // getColor1()
+  // getColor2()
+})
+
 /*  abre e fecha o menu quando clicar no icone: hamburguer e x */
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -34,28 +43,28 @@ function newHeaderPage() {
 
 
 /* Testimonials carousel slider swiper */
-const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: true,
-  keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 3,
-      setWrapperSize: true
-    }
-  }
-})
+// const swiper = new Swiper('.swiper-container', {
+//   slidesPerView: 1,
+//   pagination: {
+//     el: '.swiper-pagination'
+//   },
+//   mousewheel: true,
+//   keyboard: true,
+//   breakpoints: {
+//     767: {
+//       slidesPerView: 3,
+//       setWrapperSize: true
+//     }
+//   }
+// })
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = ScrollReveal({
-  origin: 'top',
-  distance: '30px',
-  duration: 600,
-  reset: true
-})
+// const scrollReveal = ScrollReveal({
+//   origin: 'top',
+//   distance: '30px',
+//   duration: 600,
+//   reset: true
+// })
 
 // scrollReveal.reveal(
 //   `#home .image, #home .text,
@@ -82,78 +91,68 @@ function backToTop() {
 
 // trocar a cor da pagina
 
-function getColor() {
-  const getColorPage = document.querySelector('#header .container a')
+// function getColor() {
+//   const getColorPage = document.querySelector('#header .container a')
 
-  if(window.scrollY >= 500) {
-    getColorPage.classList.add('newColor')
-  } else {
-    getColorPage.classList.remove('newColor')
-  }
-}
+//   if(window.scrollY >= 500) {
+//     getColorPage.classList.add('newColor')
+//   } else {
+//     getColorPage.classList.remove('newColor')
+//   }
+// }
 
-function getColor1() {
-  const getColorPage = document.querySelector('#header .container a')
+// function getColor1() {
+//   const getColorPage = document.querySelector('#header .container a')
 
-  if(window.scrollY >= 900) {
-    getColorPage.classList.add('newColor1')
-  } else {
-    getColorPage.classList.remove('newColor1')
-  }
-}
+//   if(window.scrollY >= 900) {
+//     getColorPage.classList.add('newColor1')
+//   } else {
+//     getColorPage.classList.remove('newColor1')
+//   }
+// }
 
-function getColor2() {
-  const getColorPage = document.querySelector('#header .container a')
+// function getColor2() {
+//   const getColorPage = document.querySelector('#header .container a')
 
-  if(window.scrollY >= 1400) {
-    getColorPage.classList.add('newColor2')
-  } else {
-    getColorPage.classList.remove('newColor2')
-  }
-}
+//   if(window.scrollY >= 1400) {
+//     getColorPage.classList.add('newColor2')
+//   } else {
+//     getColorPage.classList.remove('newColor2')
+//   }
+// }
 
 // activate menu according to the section visible on the page
-function activateMenuAtCurrentSection() {
-  const sections = document.querySelectorAll('main section[id]')
+// function activateMenuAtCurrentSection() {
+//   const sections = document.querySelectorAll('main section[id]')
 
-  const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
+//   const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
 
-  for( const section of sections ) {
-    sectionTop = section.offsetTop
-    sectionHeight = section.offsetHeight
-    sectionId = section.getAttribute('id')
+//   for( const section of sections ) {
+//     sectionTop = section.offsetTop
+//     sectionHeight = section.offsetHeight
+//     sectionId = section.getAttribute('id')
 
-   const checkpointStart = checkpoint >= sectionTop  
-   const checkpointEnd = checkpoint <= sectionTop + sectionHeight
+//    const checkpointStart = checkpoint >= sectionTop  
+//    const checkpointEnd = checkpoint <= sectionTop + sectionHeight
 
-    if ( checkpointStart && checkpointEnd) {
-      document
-      .querySelector( 'nav ul li a[href*=' + sectionId +  ']')
-      .classList.add('active')
-    } else (
-      document
-      .querySelector( 'nav ul li a[href*=' + sectionId +  ']')
-      .classList.remove('active')
-    )
-  }
+//     if ( checkpointStart && checkpointEnd) {
+//       document
+//       .querySelector( 'nav ul li a[href*=' + sectionId +  ']')
+//       .classList.add('active')
+//     } else (
+//       document
+//       .querySelector( 'nav ul li a[href*=' + sectionId +  ']')
+//       .classList.remove('active')
+//     )
+//   }
 
+// }
+
+function scrolly() {
+  
+    console.log(scrollY)
+  
 }
 
-
-/*when scroll*/
-window.addEventListener('scroll', function() {
-  backToTop()
-  newHeaderPage()
-  activateMenuAtCurrentSection() 
-  getColor()
-  getColor1()
-  getColor2()
-
-})
-
-
-
-
-
-
+scrolly()
 
